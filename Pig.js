@@ -4,9 +4,4 @@ class Pig extends BaseClass {
     this.image = loadImage("sprites/enemy.png");
   }
 
-  display(){
-    super.display();
-    console.log(this.body.speed)
-  }
-
 };
